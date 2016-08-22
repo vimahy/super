@@ -1,0 +1,22 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "About" %} UNIGEO — {{ block.super }} {% endblock %}
+
+{% block body_outer %}
+<div class="page-header">
+  <h2>{% trans "About" %} UNIGEO</h2>
+</div>
+<p class="lead">{% trans "About" %} UNIGEO</p>
+<p>
+La Unidad de Informática Geoespacial (UNIGEO) que tiene por objetivo crear un sistema avanzado de información para ordenar, sistematizar y analizar en línea la vasta información geográfica primaria, existente del Instituto de Geografía, y sentar las bases para extender este proceso a otros institutos y facultades que producen información espacial, tanto primarias como sus derivados temáticos.
+</p>
+<p>
+UNIGEO se compone de datos,  servicios y aplicaciones que habilitan el consumo de información espacial en línea. El esquema de consumo de información se crea y depende de la infraestructura de datos espaciales, en este caso formada por redes de computadoras, las cuales habilitan la creación de una Infraestructura de Datos Espaciales  (IDE) distribuida.
+
+</p>
+<p>
+UNIGEO es una IDE distribuida basada en estándares internacionales y especificaciones abiertas. Se plantea una arquitectura que incorpore proveedores de servicios, datos y desarrolladores gracias al empleo de componentes interoperables y reutilizables. La arquitectura propuesta permite la participación e integración de un gran número de institutos e investigadores dentro y fuera de la UNAM.
+</p>
+
+{% endblock %}
